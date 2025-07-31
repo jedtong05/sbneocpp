@@ -1,0 +1,6 @@
+@SBNE_OCPP_CORE.API_HostAddress = http://localhost:5038
+
+GET {{SBNE_OCPP_CORE.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
