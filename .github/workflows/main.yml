@@ -28,7 +28,7 @@ jobs:
       run: dotnet publish -c Release -o publish
 
     - name: FTP Deploy to GoDaddy
-      uses: SamKirkland/FTP-Deploy-Action@v4
+      uses: SamKirkland/ftp-deploy-action@v4.3.0
       with:
         server: 50.63.8.159
         username: OCPP_FTP
