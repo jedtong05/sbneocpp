@@ -33,5 +33,5 @@ jobs:
         server: 50.63.8.159
         username: OCPP_FTP
         password: Ocpp@2025
-        local-dir: ./publish
+        local-dir: ./publish/
         server-dir: /sbne-ocpp.launchcast.biz
